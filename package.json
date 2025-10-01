@@ -1,0 +1,17 @@
+{
+  "name": "Api-Testing-with-Webdriverio-cucumber",
+  "type": "module",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@wdio/cli": "^9.19.2",
+    "@wdio/cucumber-framework": "^9.19.2",
+    "@wdio/local-runner": "^9.19.2",
+    "@wdio/spec-reporter": "^9.19.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
+  }
+}
